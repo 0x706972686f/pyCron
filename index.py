@@ -1,20 +1,16 @@
 """
-MayDay
+pyCron
 
-MayDay is a customisable alerting application. The application will read the configuration file,
-create a worker based off the parameters supplied, and using an asynchronous scheduler execute 
-the necessary functions.
-
-Currently it alerts in slack, but this could be amended to alert in Jira and Pager Duty as well.
+A simple use of Asyncio to schedule jobs.
 
 Changelog:
     2020-10-18  - Initial Version Created (v1 Alpha)
 
 """
 __author__ = "Sean Breen"
-__credits__ = ["Falcon Complete Team", "Falcon Complete Devops"]
+__credits__ = ["Sean Breen"]
 __version__ = "1.0.0"
-__email__="sean.breen@crowdstrike.com"
+__email__="sean@shadow.engineering"
 
 
 import logging
